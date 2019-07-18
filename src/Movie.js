@@ -1,5 +1,6 @@
-import React,{Component} from 'react';
+import React,{Component} from 'react'; 
 import MoviePoster from './MoviePoster';
+import PropTypes from 'prop-types';
 
 class Movie extends Component {
     render(){
@@ -11,5 +12,10 @@ class Movie extends Component {
         )
     }
 }
+
+Movie.propTypes={
+    title:PropTypes.string,
+    poster:PropTypes.string
+};
 
 export default Movie;
