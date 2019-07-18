@@ -1,11 +1,12 @@
 import React,{Component} from 'react';
+import MoviePoster from './MoviePoster';
 
 class Movie extends Component {
     render(){
         return(
             <div>
                 <h3>{this.props.title}</h3>
-                <p>{this.props.poster}</p>
+                <MoviePoster poster={this.props.poster}/>
             </div>
         )
     }

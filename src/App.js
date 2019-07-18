@@ -3,16 +3,16 @@ import Movie from './Movie';
 
 const movieList=[
   {
-    title:"A",
-    poster:"http://pngimg.com/uploads/apple_logo/apple_logo_PNG19670.png"
+    title:"해리포터",
+    poster:"https://t1.daumcdn.net/thumb/R720x0/?fname=http://t1.daumcdn.net/brunch/service/user/5xq2/image/w2gbbJ7lwG0quKMZtTihufPuvno.jpg"
   },
   {
-    title:"B",
-    poster:"http://pngimg.com/uploads/apple_logo/apple_logo_PNG19670.png"
+    title:"스타워즈",
+    poster:"https://upload.wikimedia.org/wikipedia/ko/thumb/6/6a/%EC%8A%A4%ED%83%80%EC%9B%8C%EC%A6%88_%EA%B9%A8%EC%96%B4%EB%82%9C_%ED%8F%AC%EC%8A%A4.jpg/250px-%EC%8A%A4%ED%83%80%EC%9B%8C%EC%A6%88_%EA%B9%A8%EC%96%B4%EB%82%9C_%ED%8F%AC%EC%8A%A4.jpg"
   },
   {
-    title:"C",
-    poster:"http://pngimg.com/uploads/apple_logo/apple_logo_PNG19670.png"
+    title:"반지의 제왕",
+    poster:"http://www.newsinside.kr/news/photo/201812/514402_365603_597.jpg"
   }
 ];
 
