@@ -1,1 +1,55 @@
+#app{
+    overflow: hidden;
+    width:1290px;
+    margin:0 auto;
+    padding-left:30px;
+    padding-top:50px;
+}
+#app-title{
+    text-align: center;
+    margin-bottom:50px;
+    padding:10px;
+    font-size:xx-large;
+}
+#input-wrapper{
+    margin-top:20px;
+    margin-bottom:20px;
+}
 
+.movie {
+    box-sizing: border-box;
+    width:300px;
+    display:block;
+    float:left;
+    margin-right:30px;
+    margin-bottom:20px;    
+    box-shadow: 5px 5px 5px 5px #e1e1ea;
+    padding-left:10px; padding-top:10px;
+    border-radius: 5px; 
+}
+
+.movie:nth-child(4n){
+    margin-right:0px;
+}
+
+#button-wrapper{
+    width:max-content;
+    margin:0 auto;
+    margin-bottom:100px;
+    margin-top:50px;
+}
+
+#previous-button{
+    width:20px;height:20px;
+    background: url("./image/left-arrow.png") no-repeat;background-size: 100%;
+    border:none;
+    cursor:pointer;
+    margin-right:25px;
+}
+
+#next-button{
+    width:20px;height:20px;
+    background: url("./image/right-arrow.png") no-repeat;background-size: 100%;
+    border:none;
+    cursor:pointer;
+}
